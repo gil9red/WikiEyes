@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="IconQuit">resource/quit.png</file>
+        <file alias="IconAboutProgram">resource/about.png</file>
+        <file alias="IconAdd">resource/add.png</file>
+        <file alias="IconRemove">resource/remove.png</file>
+        <file alias="IconClose_Activate">resource/s_close.png</file>
+        <file alias="IconMinimize_Activate">resource/s_minimize.png</file>
+        <file alias="IconRemove_Activate">resource/s_remove.png</file>
+        <file alias="IconAdd_Activate">resource/s_add.png</file>
+        <file alias="IconSettings_Activate">resource/s_settings.png</file>
+        <file alias="IconAdd_Deactivate">resource/ss_add.png</file>
+        <file alias="IconClose_Deactivate">resource/ss_close.png</file>
+        <file alias="IconMinimize_Deactivate">resource/ss_minimize.png</file>
+        <file alias="IconRemove_Deactivate">resource/ss_remove.png</file>
+        <file alias="IconSettings_Deactivate">resource/ss_settings.png</file>
+        <file alias="IconSettings">resource/settings.png</file>
+        <file alias="IconHorizontal_Activate">resource/s_horizontal.png</file>
+        <file alias="IconVertical_Activate">resource/s_vertical.png</file>
+        <file alias="IconHorizontal_Deactivate">resource/ss_horizontal.png</file>
+        <file alias="IconVertical_Deactivate">resource/ss_vertical.png</file>
+        <file alias="IconBehind_Activate">resource/s_behind.png</file>
+        <file alias="IconBehind_Deactivate">resource/ss_behind.png</file>
+        <file>resource/eyes.ico</file>
+        <file alias="IconProgram">resource/eyes.png</file>
+    </qresource>
+</RCC>

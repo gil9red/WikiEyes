@@ -1,0 +1,52 @@
+IDI_ICON1  ICON    DISCARDABLE     "resource/eyes.ico"
+
+#define version 0,0,1,0
+#define longStrVersion "0.0.1.0\0"
+#define strVersion "0.0.1"
+
+#define APP_VERSION version
+#define APP_VERSION_STR longStrVersion
+
+#ifndef Q_CC_BOR
+#	if defined(UNDER_CE) && UNDER_CE >= 400
+#		include <winbase.h>
+#	else
+#		include <winver.h>
+#	endif
+#endif // Q_CC_BOR
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION version
+ PRODUCTVERSION version
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+
+BEGIN
+        BLOCK "StringFileInfo"
+        BEGIN
+                BLOCK "040904e4"
+                BEGIN
+                        VALUE "Comments",           ""
+                        VALUE "CompanyName",        "Ilya Petrash"
+                        VALUE "FileDescription",    "The program-like XEyes"
+                        VALUE "FileVersion",        strVersion
+                        VALUE "InternalName",       "WikiEyes"
+                        VALUE "LegalCopyright",     "Copyright (c) 2013 Ilya Petrash"
+                        VALUE "OriginalFilename",   "WikiEyes.exe"
+                        VALUE "ProductName",        "WikiEyes"
+                        VALUE "ProductVersion",     strVersion
+                END
+        END
+
+        BLOCK "VarFileInfo"
+        BEGIN
+                VALUE "Translation", 0x419, 0
+        END
+END
